@@ -1,4 +1,4 @@
-/* *{
+*{
     padding:0px;
     margin:0px;
     box-sizing: border-box;
@@ -8,15 +8,10 @@
     color: black;
 }
 
-
 html{height: 100%;}
 body{
     height: 100%;
     overflow: hidden;
-}
-.scene{
-    height: 100%;
-    position: relative;
 }
 
 .full_bg{position: absolute;}
@@ -25,11 +20,22 @@ body{
     position: absolute;
     height: 100%;
     width: 100%;
-} */
-
-.scene{
-    margin:0 auto; max-width:100%;
 }
 
-.full_bg {padding-top:56.25%; position:relative}
-img {position:absolute; left:0; top:0; width:100%; height:100%; }
+.container{
+    margin:0 auto; 
+    max-width:100%;
+    background-size: contain;
+}
+
+.full_bg {
+    padding-top:56.25%; 
+    position:relative
+}
+img {
+    position:absolute; 
+    left:0; 
+    top:0;
+    width:100%; 
+    height:100%; 
+}
