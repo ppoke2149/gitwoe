@@ -14,14 +14,6 @@ body{
     overflow: hidden;
 }
 
-.full_bg{position: absolute;}
-
-.full_bg > img{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
 .container{
     margin:0 auto; 
     max-width:100%;
