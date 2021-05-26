@@ -8,12 +8,6 @@
     color: black;
 }
 
-html{height: 100%;}
-body{
-    height: 100%;
-    overflow: hidden;
-}
-
 .container{
     margin:0 auto; 
     max-width:100%;
@@ -21,10 +15,10 @@ body{
 }
 
 .full_bg {
-    padding-top:56.25%; 
+    padding-top:54.8%; 
     position:relative
 }
-img {
+.full_bg >img {
     position:absolute; 
     left:0; 
     top:0;
