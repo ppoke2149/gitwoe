@@ -8,20 +8,19 @@
     color: black;
 }
 
-.container{
+.wrapper{
     margin:0 auto; 
-    max-width:100%;
-    background-size: contain;
+    max-width:1680px;
 }
 
 .full_bg {
-    padding-top:54.8%; 
+    padding-top:10.8%; 
     position:relative
 }
 .full_bg >img {
     position:absolute; 
     left:0; 
-    top:0;
+    top:15%;
     width:100%; 
-    height:100%; 
+    height:auto; 
 }
